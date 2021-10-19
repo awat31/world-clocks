@@ -67,13 +67,14 @@ p:hover{
 }
 
 .logo{
-  height: 50px;
+  height: 45px;
   width: auto;
+  padding: 0px;
 }
 
 footer{
+  position: fixed;
   color: rgb(30,30,30);
-  position: bottom;
   left: 0;
   bottom:0;
   width: 100%;
@@ -92,5 +93,8 @@ h3{
 }
 .location{
   padding: 20px;
+}
+footer{
+  position: static;
 }
 }
