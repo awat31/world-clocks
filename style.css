@@ -1,6 +1,18 @@
+
+body{
+  background-color: rgb(15,15,15);
+  color: white;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+
 h1{
+  width: 30%;
   padding: 30px;
-  
+  border-style:groove;
+  border-radius: 10px;
+
 }
 
 
@@ -13,6 +25,7 @@ padding: 5px;
    font-size: 24px;
    font-family: 'Montserrat', sans-serif;
    padding: 5px;
+   margin: auto;
 }
 
 .location{
@@ -21,6 +34,7 @@ padding: 5px;
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
+  margin: auto;
 }
 
 .flex-container{
