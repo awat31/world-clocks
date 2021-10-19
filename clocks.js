@@ -13,5 +13,5 @@ function updateClocks() {
 }
 
 // Update every minute:
-setInterval(updateClocks, 60000);
+setInterval(updateClocks, 59999);
 updateClocks();

@@ -1,40 +1,50 @@
 
 body{
   background-color: rgb(15,15,15);
-  color: white;
+  /*background-image: linear-gradient(to top,rgba(10,10,10,9), rgba(255,131,36,100));*/
+  background-repeat: no-repeat;
+  color: rgb(250,250,250);
   justify-content: center;
   text-align: center;
-  padding-top: 20px;
+  min-height: 100%;
+  margin: 0;
 }
 
-h1{
-  width: 30%;
-  padding: 30px;
-  border-style:groove;
-  border-radius: 10px;
 
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  width: 100%;
+  padding: 15px;
+  border-bottom-color: rgba(250, 250, 250, 0.5);
+  border-bottom-style: outset;
 }
 
 
 p{
 padding: 5px;
 }
-
+p:hover{
+  background-color: rgb(25,25,25);
+  border-radius: 10px;
+}
 
 .clock {
-   font-size: 24px;
+   font-size: 50px;
    font-family: 'Montserrat', sans-serif;
    padding: 5px;
+   padding-top: 10px;
    margin: auto;
 }
 
 .location{
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  padding-bottom: 5px;
+  font-size: 30px;
+  padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
   margin: auto;
+
 }
 
 .flex-container{
@@ -42,6 +52,7 @@ padding: 5px;
   justify-content: center;
   text-align: center;
   padding: 20px;
+  padding-top: 30px;
 }
 
 footer{
@@ -53,4 +64,57 @@ footer{
   text-align: center;
   font-size: 14px;
   font-family: Helvetica;
+}
+/*--------------------------------------Snow Bit-------------------------------------------------------------------------*/
+.hero {
+	background-image: radial-gradient(50% 176%, #253854 80%, #061922 100%);
+	// min-height: 100vh;
+	min-height: 30rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	&__content {
+		position: relative;
+		align-self: center;
+		padding: 3rem 0;
+	}
+}
+
+.snow {
+	position: absolute;
+	min-width: 100vw;
+	min-height: 100vh;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.snow .svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+
+	100% {
+		transform: translateY(0);
+	}
+
 }
