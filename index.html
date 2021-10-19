@@ -3,23 +3,27 @@
 <head>
   <link rel="icon" href="favicon.png">
   <link rel="stylesheet" href="style.css" type="text/css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <script src="clocks.js"></script>
   <title>
     World Clock
   </title>
   <meta name"viewport" content="width=device-width, intial-scale=1">
 </head>
-<body onload="updateClocks()">
-
-<p>Willemstad: <span class="clock" data-timezone="America/Curacao"></span></p>
-<p>Rio De Janiro: <span class="clock" data-timezone="America/Sao_Paulo"></span></p>
-<p>United Kingdom: <span class="clock" data-timezone="Europe/London"></span></p>
-<p>Italy: <span class="clock" data-timezone="Europe/Rome"></span></p>
-<p>Saudi Arabia: <span class="clock" data-timezone="Asia/Riyadh"></span></p>
-<p>Istanbul: <span class="clock" data-timezone="Europe/Istanbul"></span></p>
-<p>Hangzhou: <span class="clock" data-timezone="Asia/Shanghai"></span></p>
-<p>Singapore: <span class="clock" data-timezone="Asia/Singapore"></span></p>
-<p>Seoul: <span class="clock" data-timezone="Asia/Seoul"></span></p>
+<body onload="updateClocks()" class="flex-container">
+<h1>Time Around The World</h1><br>
+<p class="location">Willemstad: <br><span class="clock" data-timezone="America/Curacao"></span></p>
+<p class="location">Rio De Janiro: <br><span class="clock" data-timezone="America/Sao_Paulo"></span></p>
+<p class="location">United Kingdom: <br><span class="clock" data-timezone="Europe/London"></span></p>
+<p class="location">Italy: <br><span class="clock" data-timezone="Europe/Rome"></span></p>
+<p class="location">Saudi Arabia: <br><span class="clock" data-timezone="Asia/Riyadh"></span></p>
+<p class="location">Istanbul: <br><span class="clock" data-timezone="Europe/Istanbul"></span></p>
+<p class="location">Hangzhou: <br><span class="clock" data-timezone="Asia/Shanghai"></span></p>
+<p class="location">Singapore: <br><span class="clock" data-timezone="Asia/Singapore"></span></p>
+<p class="location">Seoul: <br><span class="clock" data-timezone="Asia/Seoul"></span></p>
 
 
 

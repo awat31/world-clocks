@@ -1,6 +1,42 @@
+h1{
+  padding: 30px;
+  
+}
+
+
+p{
+padding: 5px;
+}
+
+
 .clock {
-   font-family: sans-serif;
-   border: thin solid;
-   border-radius: 10px;
+   font-size: 24px;
+   font-family: 'Montserrat', sans-serif;
    padding: 5px;
+}
+
+.location{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+footer{
+  color: rgb(20,20,20);
+  position: bottom;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica;
 }
