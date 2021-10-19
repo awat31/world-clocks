@@ -58,6 +58,8 @@ p:hover{
 
 .flex-container{
   display: flex;
+  flex-flow: row wrap;
+  list-style:none;
   justify-content: center;
   text-align: center;
   padding: 20px;
@@ -78,4 +80,17 @@ footer{
   text-align: center;
   font-size: 14px;
   font-family: Helvetica;
+}
+
+@media only screen and (max-width: 1080px) {
+h1{
+  font-size: 65px;
+}
+
+h3{
+  font-size: 30px;
+}
+.location{
+  padding: 20px;
+}
 }
