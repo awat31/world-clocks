@@ -31,7 +31,7 @@ h3{
 
 
 p{
-padding: 5px;
+  padding: 5px;
 }
 
 p:hover{
@@ -40,11 +40,11 @@ p:hover{
 }
 
 .clock {
-   font-size: 50px;
-   font-family: 'Montserrat', sans-serif;
-   padding: 5px;
-   padding-top: 10px;
-   margin: auto;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  padding-top: 10px;
+  margin: auto;
 }
 
 .location{
@@ -85,17 +85,17 @@ footer{
 }
 
 @media only screen and (max-width: 1080px) {
-h1{
-  font-size: 65px;
-}
+  h1{
+    font-size: 65px;
+  }
 
-h3{
-  font-size: 30px;
-}
-.location{
-  padding: 20px;
-}
-footer{
-  position: static;
-}
+  h3{
+    font-size: 30px;
+  }
+  .location{
+    padding: 20px;
+  }
+  footer{
+    position: static;
+  }
 }
