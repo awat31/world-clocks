@@ -8,7 +8,7 @@ body{
   justify-content: center;
   text-align: center;
   min-height: 100%;
-  margin: 0;
+  margin: 10px;
 }
 
 
@@ -42,17 +42,14 @@ p:hover{
 .clock {
   font-size: 50px;
   font-family: 'Montserrat', sans-serif;
-  padding: 5px;
-  padding-top: 10px;
+  padding: 30px;
   margin: auto;
 }
 
 .location{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 30px;
   margin: auto;
 
 }
@@ -63,8 +60,8 @@ p:hover{
   list-style:none;
   justify-content: center;
   text-align: center;
-  padding: 20px;
-  padding-top: 30px;
+  padding: 30px;
+  padding-top: 40px;
 }
 
 .logo{
