@@ -46,6 +46,11 @@ p:hover{
   margin: auto;
 }
 
+.hidden{
+  display: none;
+  visibility: hidden;
+}
+
 .location{
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
